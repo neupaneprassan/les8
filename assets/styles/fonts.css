@@ -100,7 +100,17 @@
 .pageTitle {
   font-size: 5em;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-style: normal;
   line-height: normal;
+  letter-spacing: 7px;
+}
+
+.pagetitle {
+  font-size: 5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 150;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 25px;
 }

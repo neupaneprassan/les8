@@ -11,22 +11,21 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import { useRoute } from '#app';
+import { ref } from "vue";
+import { useRoute } from "#app";
 
-
-import Layout1 from '~/components/layouts/Layout1.vue';
-import Layout2 from '~/components/layouts/Layout2.vue';
-import Layout3 from '~/components/layouts/Layout3.vue';
+import Layout1 from "~/components/layouts/Layout1.vue";
+import Layout2 from "~/components/layouts/Layout2.vue";
+import Layout3 from "~/components/layouts/Layout3.vue";
 
 // Function to get the corresponding layout component
 function getLayoutComponent(layout) {
   switch (layout) {
-    case 'layout1':
+    case "layout1":
       return Layout1;
-    case 'layout2':
+    case "layout2":
       return Layout2;
-    case 'layout3':
+    case "layout3":
       return Layout3;
     default:
       return null;
@@ -35,15 +34,14 @@ function getLayoutComponent(layout) {
 
 // Function to format the date
 function formatDate(date) {
-  const options = { year: 'numeric', month: 'long' };
+  const options = { year: "numeric", month: "long" };
   return new Date(date).toLocaleDateString(undefined, options);
 }
-
-
-
-
 </script>
 
 <style>
-  .tags li{ display: inline; padding-right:.2em; }
+.tags li {
+  display: inline;
+  padding-right: 0.2em;
+}
 </style>
