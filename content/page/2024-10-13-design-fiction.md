@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Design Fiction
+subtitle: ""
 tags:
   - Tag 1
 imagegallery:
@@ -14,7 +15,13 @@ thumbnail: /img/schets_simon_01-scaled.jpg
 date: 2024-10-13T22:36:48.831Z
 numbernavigation: 1
 layoutpage: layout2
-description: Illustrator adobe
+description: "Bij dit project kwam ik er al snel achter dat er te veel
+  tekeningen waren om alles overzichtelijk en effectief te presenteren. Daarom
+  heb ik besloten het aantal te reduceren van 26 naar 18. Deze keuze stelde me
+  in staat om voldoende ruimte te creëren binnen het medium, zodat elk element
+  beter tot zijn recht komt zonder dat het geheel overvol aanvoelt. Het was een
+  proces van kritisch selecteren: alleen de meest relevante en impactvolle
+  tekeningen zijn behouden om een krachtige visuele ervaring te waarborgen."
 promoted: "0"
 included: true
 ---

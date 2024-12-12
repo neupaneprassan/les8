@@ -1,20 +1,21 @@
 /* Body element */
-body {
-  background-color: #ffdede;
-  color: rgba(0, 0, 0, 0.8);
+
+.light-mode .layout1 {
+  background: linear-gradient(to right top, #ffa1de, #cfcfff, #af7eff);
 }
-.light-mode body {
-  background-image: linear-gradient(to right top, #edf4ff, #0f4323, #210055);
-  color: #ffffff;
+
+.light-mode .layout2 {
+  background: linear-gradient(to right top, #ffa1de, #cfcfff, #af7eff);
 }
 .el-drawer {
   background-color: rgba(255, 255, 255, 0.99);
+  color: #ebebeb;
 }
 .light-mode .contenthead {
-  color: #c4ff9d;
+  color: #924699;
 }
 .light-mode .contentrender {
-  color: #78bf4a;
+  color: #6c3c6b;
 }
 /* */
 .dark-mode body {
@@ -40,7 +41,6 @@ body {
 }
 /* */
 .gray-mode body {
-  background-color: #bbbcb1;
   color: #ffffffef;
 }
 .gray-mode .backcolor {
@@ -112,7 +112,7 @@ select {
 }
 
 .light-mode .pagetitle {
-  color: rgb(224, 255, 186);
+  color: rgb(0, 0, 0);
   font-family: "Epilogue", sans-serif;
 }
 
@@ -121,6 +121,10 @@ select {
   font-family: "Epilogue", sans-serif;
 }
 
-.gray-mode .layout1 .layout2 {
+.gray-mode .layout1 {
+  background-image: linear-gradient(to right top, #150071, #991f1f, #3b0046);
+}
+
+.gray-mode .layout2 {
   background-image: linear-gradient(to right top, #150071, #991f1f, #3b0046);
 }
