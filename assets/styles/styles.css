@@ -23,3 +23,19 @@ ul,
 li {
   list-style: none;
 }
+
+.layout3width {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gap-4 {
+  column-gap: 4rem;
+}
+
+.layout2width {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+}

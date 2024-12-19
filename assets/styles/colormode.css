@@ -7,6 +7,9 @@
 .light-mode .layout2 {
   background: linear-gradient(to right top, #ffa1de, #cfcfff, #af7eff);
 }
+.light-mode .layout3 {
+  background: linear-gradient(to right top, #ffa1de, #cfcfff, #af7eff);
+}
 .el-drawer {
   background-color: rgba(255, 255, 255, 0.99);
   color: #ebebeb;
@@ -101,7 +104,12 @@ select {
 .layout1 {
   background-image: linear-gradient(to right top, #162e50, #0f4323, #008793);
 }
-
+.layout2 {
+  background-image: linear-gradient(to right top, #162e50, #0f4323, #008793);
+}
+.layout3 {
+  background-image: linear-gradient(to right top, #162e50, #0f4323, #008793);
+}
 .el-drawer {
   background-image: linear-gradient(to right top, #162e50, #0f4323, #210055);
 }
@@ -126,5 +134,9 @@ select {
 }
 
 .gray-mode .layout2 {
+  background-image: linear-gradient(to right top, #150071, #991f1f, #3b0046);
+}
+
+.gray-mode .layout3 {
   background-image: linear-gradient(to right top, #150071, #991f1f, #3b0046);
 }
